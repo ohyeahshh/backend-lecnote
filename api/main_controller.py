@@ -1,7 +1,7 @@
 # files after part 2
 import requests
 import time
-from api_secrets import API_KEY_ASSEMBLYAI
+from api_security_token import API_KEY_ASSEMBLYAI
 
 
 upload_endpoint = 'https://api.assemblyai.com/v2/upload'
